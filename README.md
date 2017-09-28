@@ -1,9 +1,7 @@
 # COSC4355-Cheatsheet
 cheatsheet for cosc 4355.
 
-//
-//  EXCERCISE 1
-//  
+# EXCERCISE 1
 
 // 1. Declare a variable called "string" that holds the value "my string" [0.5]
 var myString = "my string"
@@ -151,26 +149,14 @@ for b in sortedBooks {
     print(b.title)
 }
 
-//
-//  EXCERCISE 2
-//
+#  EXCERCISE 2
 
-//
-//  AppDelegate.swift
-//  Exercise2
-
-//
-//  ViewController.swift
-//  Exercise2
-//
-//  Created by Ashik Khatri on 8/29/17.
-//  Copyright © 2017 Ashik Khatri. All rights reserved.
-//
+###  AppDelegate.swift
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController 
+{
     let greetingsDictionary = ["English": "Hello", "Italian": "Ciao", "French": "Bonjour", "Spanish": "Hola", "Dutch": "Hallo", "Greek": "Χαίρετε", "Vietnamese": "xin chào", "Chinese": "你好", "Bangla": "হ্যালো", "Hindi": "नमस्ते"]
     @IBOutlet weak var lblGreeting: UILabel!
     @IBOutlet weak var txtNameField: UITextField!
@@ -226,37 +212,26 @@ class ViewController: UIViewController {
     }
 }
 
+#  EXCERCISE 3
 
-//
-//  EXCERCISE 3
-//
-
-//
-//  HomeViewController.swift
-//  Exercise2
-//
-//  Created by Dinesh on 9/13/17.
-//  Copyright © 2017 cpl. All rights reserved.
-//
+###  HomeViewController.swift
 
 import UIKit
 
 class HomeViewController: UIViewController
 {
-
     var user:String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         lblName.text = user
     }
-
+    
     override func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated./Volumes/ubicomp/fall 2016/Week2/Exercise2solution.zip
     }
-
 
     /*
     // MARK: - Navigation
@@ -276,13 +251,7 @@ class HomeViewController: UIViewController
 }
 
 
-//
-//  RegisterViewController.swift
-//  Exercise2
-//
-//  Created by Dinesh on 9/13/17.
-//  Copyright © 2017 cpl. All rights reserved.
-//
+###  RegisterViewController.swift
 
 import UIKit
 
