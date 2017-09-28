@@ -337,7 +337,8 @@ class RegisterViewController: UIViewController
 //This function returns a random number from 1 - 6
 
 ```var randnum = 0
-randnum = Int(arc4random_uniform(UInt32(6))) + 1```
+randnum = Int(arc4random_uniform(UInt32(6))) + 1
+```
 
 ###  image outlet and changing images
 
@@ -345,9 +346,11 @@ randnum = Int(arc4random_uniform(UInt32(6))) + 1```
 
 //image outlet declearation -- imageDice1 is name of outlet
 
-```@IBOutlet weak var imgDice1: UIImageView!```
+```@IBOutlet weak var imgDice1: UIImageView!
+```
 
 //image for imgDice1 outlet  is changed with “die_face_1” image within content folder
 
-```imgDice1.image = UIImage(named: "die_face_1")```
+```imgDice1.image = UIImage(named: "die_face_1")
+```
 
